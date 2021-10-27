@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(32, 118, 189);
+            color: white;
+        }
+        h1 {
+            color: yellow;
+        }
+        /*Assim se comenta em CSS*/
+    </style>
+</head>
+<body>
+    <H1>Olá, mundo!!</H1> <!--Isso é um comentário em HTML-->
+    <p>Já me livrei da maldição!</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //window.prompt recebe sempre uma string. O Number.parseInt converte para números INTEIROS. O Number.parseFloat para números REAIS, que podem ter vírgulas, etc.//
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        s = n1 + n2
+        window.alert('A soma dos dois números informados é '+ s + '!')
+        
+        //Se usar apenas Number, o Javascript cuida da interpretação dos números.
+
+        var n3 = Number(window.prompt('Digite mais um número: '))
+        var n4 = Number(window.prompt('Agora outro número: '))
+        s2 = n3 + n4
+        window.alert(`A soma de ${n3} e ${n4} é ${s2}.`)
+
+
+
+        //(number + number) para adição
+        //(string + string) para concatenação
+                
+    </script>
+</body>
+</html>

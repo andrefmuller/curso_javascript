@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador Dinâmico</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador dinâmico</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Início: <input type="number" name="txtini" id="txtini" min="0" value="0">
+            </p>
+            <p>Fim: <input type="number" name="txtfim" id="txtfim" min="0" value="0">
+            </p>
+            <p>Passo: <input type="number" name="txtpasso" id="txtpasso" min="1"></p>            
+        </div>
+
+        <div id="bot_calc"><p><input id="bot_calc" type="button" value="Calcular" onclick="calcular()"></p></div>
+
+        <div id="resultado">
+            Preparando a contagem.
+        </div>
+    </section>
+    <footer>
+        <p>Desenvolvido por &copy;André Frederico Müller</p>
+    </footer>
+    <script src="ex016.js"></script>
+    
+</body>
+</html>
